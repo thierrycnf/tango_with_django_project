@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from rango.models import Category, Page
-from rango.forms import CategoryForm
+from rango.forms import CategoryForm, PageForm
 from django.shortcuts import redirect
 from django.urls import reverse
 
